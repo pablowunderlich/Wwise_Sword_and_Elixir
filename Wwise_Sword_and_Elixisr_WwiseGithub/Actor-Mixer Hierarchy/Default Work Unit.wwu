@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5D2705A2-EFA3-458E-B592-D096644454AB}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{5D2705A2-EFA3-458E-B592-D096644454AB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Elixir and Sword Test1" ID="{4290E18B-2CBC-40CE-A343-7544258A1F34}" ShortID="218470247">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA7FC044-6423-4871-83A0-FD8CF277E38D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2CCF802-A646-4B7D-83AD-885A9658281D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Elixir and Sword Test1" ID="{5720E7CE-B79B-4103-9258-012289E83F51}" ShortID="763324002">
+							<Language>SFX</Language>
+							<AudioFile>Elixir and Sword Test1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Elixir and Sword Test1" ID="{5720E7CE-B79B-4103-9258-012289E83F51}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

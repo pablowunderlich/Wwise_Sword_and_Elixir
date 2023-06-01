@@ -1,6 +1,166 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{719DCCB9-8E61-4951-9CC8-1C5591FC9491}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{719DCCB9-8E61-4951-9CC8-1C5591FC9491}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{719DCCB9-8E61-4951-9CC8-1C5591FC9491}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="PlayerEvents" ID="{0BC74224-E73B-4DF3-AB1C-9804BDC069AE}" ShortID="494359642">
+					<ChildrenList>
+						<Event Name="Player_Move" ID="{2375BF87-6B68-49F6-B662-13885D3924C8}">
+							<ChildrenList>
+								<Action Name="" ID="{1D96BDB1-40A5-4E61-89A0-A8FEE39309CE}" ShortID="175757058">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerFootsteps" ID="{8FF05307-9DA1-41C3-834A-F0ECF4BC6BDE}" WorkUnitID="{5D2705A2-EFA3-458E-B592-D096644454AB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Attack" ID="{1A94A6C6-93C4-4A9C-90B5-B0600DE37F02}">
+							<ChildrenList>
+								<Action Name="" ID="{197F1ED8-6B80-4C17-A338-D6B4517528CF}" ShortID="734882971">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerAttack" ID="{0E11F3C0-AE8B-46BF-B768-227D61FF48A9}" WorkUnitID="{5D2705A2-EFA3-458E-B592-D096644454AB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Dash" ID="{EF5C0BD9-5E42-4C07-AF99-EFC3334F5947}">
+							<ChildrenList>
+								<Action Name="" ID="{38E98B00-12D4-4054-8D32-61F35834BA1C}" ShortID="899151636">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Dash 01" ID="{652083C8-00B8-4BDC-A02E-8799EE2FCC26}" WorkUnitID="{5D2705A2-EFA3-458E-B592-D096644454AB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Death" ID="{1326FBD2-5CB2-4F19-8A4A-4A43238465AA}">
+							<ChildrenList>
+								<Action Name="" ID="{E627D504-0211-45AA-9A48-6F2C6238BB02}" ShortID="84352567">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Death 01" ID="{6D1FF062-7A7F-4FFE-A530-91DE786DECED}" WorkUnitID="{5D2705A2-EFA3-458E-B592-D096644454AB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="AmbienceEvents" ID="{32EDC156-6197-4E53-965E-835948AA8D87}" ShortID="296064496">
+					<ChildrenList>
+						<Event Name="play_ambience_level02" ID="{46D0664F-4F9B-4842-8BB6-5FB35F35FCB6}">
+							<ChildrenList>
+								<Action Name="" ID="{54ABC68D-3698-46C5-955F-6D1D192B8A70}" ShortID="521919535">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Forest-01" ID="{E529862F-EF97-4AA7-A20C-239923C42D2A}" WorkUnitID="{5D2705A2-EFA3-458E-B592-D096644454AB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_ambience_level01" ID="{E6ADCE8A-9C31-4C17-82D6-0691B4195203}">
+							<ChildrenList>
+								<Action Name="" ID="{4F54D4C5-97A2-4341-807B-EDDB98AF7C4D}" ShortID="447102031">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_HowlingWind-01" ID="{F50EC046-D413-4631-82C9-0B94563C5D65}" WorkUnitID="{5D2705A2-EFA3-458E-B592-D096644454AB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="EnemyEvents" ID="{2735C52D-CA02-4A16-93B2-D20B1FC45B07}" ShortID="19237411"/>
+				<Folder Name="UIEvents" ID="{E29AC5DD-CB43-4DFF-8A35-101CCAFDEDBD}" ShortID="770520043">
+					<ChildrenList>
+						<Folder Name="Inventory" ID="{E906ECD1-B20B-448F-85B1-68502B3CC992}" ShortID="989448064">
+							<ChildrenList>
+								<Event Name="Inventory_Open" ID="{DB6598A7-08B2-4D09-A4E1-3892D02E2F96}">
+									<ChildrenList>
+										<Action Name="" ID="{FB8D67E8-C4EC-45AC-A2CF-32FDEF7BEBB2}" ShortID="592101686">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="InventoryOpen" ID="{64D5B627-51CA-4A4B-8432-4ACB7A284F11}" WorkUnitID="{5D2705A2-EFA3-458E-B592-D096644454AB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Inventory_Close" ID="{EE6C2683-BDB8-4057-96B7-B888A0F8ACE6}">
+									<ChildrenList>
+										<Action Name="" ID="{D149352B-66E8-4BF1-A164-21975C38E7DA}" ShortID="763704611">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="InventoryClose" ID="{CC45DA2B-04F2-43AD-A2FB-47744DD51293}" WorkUnitID="{5D2705A2-EFA3-458E-B592-D096644454AB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="ButtonClick" ID="{875BA0AB-8D10-4738-8E72-F8BEA94E4B6E}" ShortID="861681958">
+							<ChildrenList>
+								<Event Name="Click_Positive" ID="{072F1486-171A-4DFC-9E06-581B1BD999BE}">
+									<ChildrenList>
+										<Action Name="" ID="{C9515021-D48F-46B5-A02C-E84B5CDAD267}" ShortID="832531469">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClickPositive" ID="{1F226685-6F26-4878-9FC2-46496D8E1577}" WorkUnitID="{5D2705A2-EFA3-458E-B592-D096644454AB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Click_Negative" ID="{4CEE6B37-B0A4-4F3B-8DDA-C1DA0E1B693D}">
+									<ChildrenList>
+										<Action Name="" ID="{827EC226-44FE-43D6-950D-84BCD6E3E4A7}" ShortID="320832749">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClickNegative" ID="{482627D1-58E3-43DE-BF5E-6250395EC506}" WorkUnitID="{5D2705A2-EFA3-458E-B592-D096644454AB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="CraftMenu" ID="{951FC6C4-01AE-4E5C-8A0C-D0E44F2A48FD}" ShortID="733026842">
+							<ChildrenList>
+								<Event Name="Craft_Open" ID="{BCFBF571-0222-426F-84C7-EEA6447A77A8}">
+									<ChildrenList>
+										<Action Name="" ID="{15A82DD8-D571-49C2-A367-A8E51EC57A1A}" ShortID="156832377">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="CraftOpen" ID="{2A506076-A55E-458C-AAB9-480D3B8046FD}" WorkUnitID="{5D2705A2-EFA3-458E-B592-D096644454AB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Craft_Close" ID="{E794C691-18BE-42D1-9954-C4B235185349}">
+									<ChildrenList>
+										<Action Name="" ID="{FEA3AC99-FDEE-45F9-B040-7F50E08D3FE8}" ShortID="511561777">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="CraftClose" ID="{E3DDDAF2-36D5-4E3F-B2BA-26468FE82168}" WorkUnitID="{5D2705A2-EFA3-458E-B592-D096644454AB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

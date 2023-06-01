@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{43D5325C-CCE0-44A6-8A83-4176E4388A25}" SchemaVersion="94">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{43D5325C-CCE0-44A6-8A83-4176E4388A25}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{43D5325C-CCE0-44A6-8A83-4176E4388A25}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="ELXR_SoundcasterTest" ID="{77317B0B-D8F0-4F96-A062-5DB0D13FFA80}">
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Sword" ID="{69A95DD4-05CC-40BE-8B4F-383FA6049F2E}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
